@@ -1,24 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="plugins/bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="plugins/fontawesome-free-6.1.0-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
     <title>App Fintech</title>
-</head>
+  </head>
+  <body>
+    <div class="grid-container">
+      <aside id="sidebar">
+        <div class="sidebar-title">
+          <div class="sidebar-brand">
+            <span class="material-icons-outlined">person</span> @User_example
+          </div>
+          <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+        </div>
 
-<body>
-<header>
-    <div class="info">
-        <div class="logo">
-            <h3>Code</h3>
+        <ul class="sidebar-list">
+          <li class="sidebar-list-item">
+            <span class="material-icons-outlined">attach_money</span> Pagamentos
+          </li>
+          <li class="sidebar-list-item">
+            <span class="material-icons-outlined">query_stats</span> Transações
+          </li>
+          <li class="sidebar-list-item">
+            <span class="material-icons-outlined">credit_card</span> Cartões
+          </li>
+          <li class="sidebar-list-item">
+            <span class="material-icons-outlined">savings</span> Economias
+          </li>
+          <li class="sidebar-list-item">
+            <span class="material-icons-outlined">loyalty</span> Promoções
+          </li>
+        </ul>
+      </aside>
+      <main class="main-container">
+        <div class="main-title">
+          <p class="main-font">Atualizações!</p>
         </div>
-        <div class="icons-header"></div>
-            <i class="fa-solid fa-magnifying-glass"></i>
+        <div class="charts">
+          <div class="charts-card">
+            <p class="chart-title">Saldo Total  $12600.00</p>
+            <div id="bar-chart"></div>
+          </div>
+
         </div>
+      </main>
     </div>
-</header>
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.3/apexcharts.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

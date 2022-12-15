@@ -10,9 +10,9 @@
 }
 
 .login-text {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: white;
-    font-size: 45px;
+    font-size: 30px;
 }
 
 .login-form-wrapper {
@@ -30,23 +30,26 @@
 .login-form {
     margin-top: -130px;
     position: relative;
-    height: 80%;
+    height: 67%;
     display: block;
     align-items:center;
     padding: 80px;
     background-color:#3b60f5;
-    border-radius: 5%;
+    border-radius: 40px 40px 0px 0px;
     padding-left: 0.5px;
 }
 
 .form-group label {
     color: azure;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 4vmin;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
 } 
 
 .form-group input {
-    background-image: linear-gradient(to right, #10caeb, #2246d6);
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    background-image: linear-gradient(to right, #10caeb, #2246d6c0);
     border-radius: 23px;
     border: transparent;
     height: 60px;
@@ -55,12 +58,12 @@
 
 
 form .btn {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: linear-gradient(to right, #10caeb, #2246d6);
+    font-family: "Montserrat", sans-serif;
+    background-image: linear-gradient(to right, #10caeb, #2246d6c0);
     border: transparent;
     padding: 2px 20px;
     border-radius: 70px;
-    font-size: 2vmin;
+    font-size: 15px;
     font-weight:normal;
     color: aliceblue;
     height: 30px;
